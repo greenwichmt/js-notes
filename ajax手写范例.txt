@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+function loadXMLDoc()
+{
+// code for IE7+, Firefox, Chrome, Opera, Safari
+var  xmlhttp=new XMLHttpRequest();
+
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","/ajax/demo_get.asp?t=" + Math.random(),true);
+xmlhttp.send();
+}
+</script>
+</head>
+<body>
+
+<h2>AJAX</h2>
+<button type="button" onclick="loadXMLDoc()">ÇëÇóÊý¾Ý</button>
+<div id="myDiv"></div>
+
+</body>
+</html>

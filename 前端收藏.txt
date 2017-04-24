@@ -1,0 +1,19 @@
+[].forEach.call($$("*"),function(a){
+  a.style.outline="1px solid #"+(~~(Math.random()*(1<<24))).toString(16)
+})
+
+要往界面方向走的
+生成 box-shadow 的工具(http://www.cssmatic.com/box-shadow)
+渐变生成器(http://www.cssmatic.com/gradient-generator)
+CSS3 生成器(http://www.cssreflex.com/css-generators/)
+CSS4 to CSS1 选择器(http://css4-selectors.com/selectors/)
+博客 WebGL自学教程(http://blog.csdn.net/tiewen/article/details/6895582)
+
+要往js方向走的
+测试框架(https://www.awesomes.cn/repos/Applications/testings)
+JavaScript 标准参考教程-- 阮一峰(http://javascript.ruanyifeng.com/)
+前后端分离的思考与实践(http://blog.jobbole.com/65513/)
+JavaScript设计模式(http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
+
+万能网
+MDN https://developer.mozilla.org  

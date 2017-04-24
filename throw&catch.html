@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>²âÊÔ³öÈëµÄ×Ö·û</title>
+<script>
+function smsAlert()
+{	
+try
+	{
+		var x=document.getElementById("demo").value;
+		if(x=="")  throw "empty-cells";
+		if(x<=4)  throw "too small";
+		if(x>=11)  throw "too big";
+		if(isNaN(x))  throw "NaN";
+	}
+catch(err)
+{
+	document.getElementById("demo2").innerHTML="The number you input is "+err+".";
+	alert(err);
+}
+}
+</script>
+</head>
+<body>
+<h1>my first JS</h1>
+<p>please input a number from 5 to 10:</p><br>
+<input id="demo" type="text"><br>
+<button onclick="smsAlert()">test</button>
+<p id="demo2">nicuole</p>
+</body>
+</html>

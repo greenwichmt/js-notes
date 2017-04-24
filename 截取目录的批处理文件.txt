@@ -1,0 +1,1 @@
+dir/b/ad >1.txt     //bare_attribute_directory.txt
